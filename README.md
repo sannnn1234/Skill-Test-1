@@ -5,7 +5,7 @@ A full-stack application using Flask for both frontend and backend services, dem
 ## Project Structure
 
 ```
-multienv/
+Skill-Test-1/
 ├── docker-compose.yml
 ├── backend/
 │   ├── dev/
@@ -19,10 +19,11 @@ multienv/
 │       ├── Dockerfile
 │       └── .env
 └── frontend/
-    ├── app.py
-    ├── requirements.txt
-    ├── Dockerfile
-    └── .env
+│       ├── app.js
+│       └── Dockerfile
+├── docker-compose.yml
+└── README.md
+└── .gitignore
 ```
 
 ## Environment Configuration
@@ -52,10 +53,36 @@ requests==2.26.0
 
 
 
-### Using Docker Compose
-```bash
-docker-compose up
+## Getting Started
+
+**Prerequisites**
+1. Docker
+2. Docker Compose
+
+**Check installation:**
 ```
+docker --version
+docker-compose --version
+```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/dockerv.png)
+
+---
+
+## Run The Project
+```
+docker-compose up --build
+```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/dockercompose.png)
+
+---
+
+## Verify Running Containers
+```
+docker ps
+```
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/composeps.png)
+
+---
 
 ## Accessing the Application
 
@@ -65,11 +92,6 @@ docker-compose up
 
 
 
-## Security Considerations
 
-- Never commit `.env` files to version control
-- Use different MongoDB databases for dev and prod
-- Implement proper authentication
-- Use secure headers
 
 
