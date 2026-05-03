@@ -92,7 +92,9 @@ docker ps
 
 ---
 ![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/frontend.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/dev.png)
 ![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/devticket.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/pt.png)
 ![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshot/prod.png)
 
 
