@@ -90,6 +90,13 @@ docker ps
 - Development Environment: http://localhost:3001/dev
 - Production Environment: http://localhost:3002/prod
 
+---
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshots/frontend.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshots/devticket.png)
+![Local Setup](https://raw.githubusercontent.com/sannnn1234/Skill-Test-1/main/screenshots/prod.png)
+
+
+
 
 
 
